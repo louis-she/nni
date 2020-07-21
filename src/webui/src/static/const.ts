@@ -2,7 +2,7 @@
 const METRIC_GROUP_UPDATE_THRESHOLD = 100;
 const METRIC_GROUP_UPDATE_SIZE = 20;
 
-let MANAGER_IP = `/api/v1/nni`;
+let MANAGER_IP = `api/v1/nni`;
 if (process.env.NODE_ENV == "development") {
     MANAGER_IP = `//${window.location.hostname}:8080` + MANAGER_IP;
 }

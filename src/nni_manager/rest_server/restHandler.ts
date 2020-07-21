@@ -160,7 +160,7 @@ class NNIRestHandler {
                     // Resume experiment is a step of initialization, so any exception thrown is a fatal
                     this.handleError(err, res);
                 });
-            } 
+            }
         });
     }
 
